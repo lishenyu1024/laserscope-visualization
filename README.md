@@ -14,6 +14,7 @@ This visualization analyzes FAA laser incident reports from 2020, examining when
    - Interactive table displaying all laser incident records
    - Browse and inspect raw data from FAA Laser Reports
    - Searchable and sortable data exploration interface
+![Demo Animation](https://raw.githubusercontent.com/lishenyu1024/laserscope-visualization/abd3485b953c40406d20599406262c4f5afd5f12/hello-framework/src/2025-11-10%2020.24.14.gif)
 
 2. **Interactive Scatter Plot (Time vs. Altitude)**
    - Hover over data points to reveal detailed incident information
