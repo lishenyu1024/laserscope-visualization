@@ -1,4 +1,4 @@
-# LaserScope: Interactive Visualization and Analysis of Aircraft Laser Incidents
+# Aircraft Laser Incidents Visualization
 
 An interactive data visualization dashboard built with [Observable Framework](https://observablehq.com/framework/) that explores laser incidents targeting aircraft in the United States. This project provides comprehensive insights into temporal patterns, geographical distribution, aircraft characteristics, and safety implications of laser attacks on aviation.
 
@@ -10,33 +10,45 @@ This visualization analyzes FAA laser incident reports from 2020, examining when
 
 ### Interactive Visualizations
 
-1. **Interactive Scatter Plot (Time vs. Altitude)**
+1. **Data Table Viewer**
+   - Interactive table displaying all laser incident records
+   - Browse and inspect raw data from FAA Laser Reports
+   - Searchable and sortable data exploration interface
+
+2. **Interactive Scatter Plot (Time vs. Altitude)**
    - Hover over data points to reveal detailed incident information
    - Uses `Plot.pointer` and `Generators.input()` for real-time data inspection
    - Filterable by state and altitude range
+![2025-11-10 20 21 41](https://github.com/user-attachments/assets/a75ee28d-47c9-4dce-8e0e-267a0418f41e)
 
-2. **Temporal Trend Analysis**
+3. **Temporal Trend Analysis**
+
    - Visualizes laser incidents by time of day
    - Reveals peak incident hours (evening and late night)
    - Highlights low-light period concentration
+<img width="704" height="468" alt="截屏2025-11-10 20 27 05" src="https://github.com/user-attachments/assets/5a3fa36f-6373-46ce-ac9f-bdb250c0cff1" />
 
-3. **Geographical Distribution**
+4. **Geographical Distribution**
    - State-by-state comparison of laser incidents
    - Identifies hotspots (California leads in incidents)
    - Multi-state filtering capability
+<img width="724" height="465" alt="截屏2025-11-10 20 27 33" src="https://github.com/user-attachments/assets/1206eea7-7b8a-4249-89a8-44b6e5187949" />
 
-4. **Aircraft Altitude Analysis**
+5. **Aircraft Altitude Analysis**
    - Distribution of incidents across altitude ranges
    - Focuses on critical safety zones below 5,000 feet
    - Highlights takeoff/landing phase vulnerability
+<img width="700" height="456" alt="截屏2025-11-10 20 28 11" src="https://github.com/user-attachments/assets/56aa8fb7-03ea-4c17-a1cf-ca3dde1afa58" />
 
-5. **Laser Color Distribution**
+6. **Laser Color Distribution**
    - Analysis of laser colors used in incidents
    - Green laser dominance (99% of incidents)
+<img width="715" height="463" alt="截屏2025-11-10 20 28 27" src="https://github.com/user-attachments/assets/c66cf382-f15e-4ff8-bed6-a12f64265a93" />
 
-6. **Injury Occurrence Analysis**
+7. **Injury Occurrence Analysis**
    - Rare but critical safety events
    - Injury rate statistics and patterns
+<img width="516" height="355" alt="截屏2025-11-10 20 28 47" src="https://github.com/user-attachments/assets/4dcd1f6b-cee9-4191-b53a-5218f2cac073" />
 
 ### Key Insights
 
